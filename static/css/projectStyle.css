@@ -1,0 +1,29 @@
+h1{
+    text-align: 30px;
+    margin-bottom: 3rem;
+}
+
+.card{
+    transition: transform 0.2s;
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-body{
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+
+.card-subtext{
+    color: gray
+}
+
+.project-cards{
+    border-radius: 10px;
+}

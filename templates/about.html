@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동아리 소개</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .main-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-left: 3px solid #000;
+      padding-left: 15px;
+      color: #555;
+    }
+    .activity-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .activity-list {
+      margin-top: 20px;
+    }
+    .activity-item {
+      margin-bottom: 10px;
+    }
+    .activity-date {
+      font-weight: bold;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+    .stats-item {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      margin: 10px;
+      flex: 1 1 30%;
+      max-width: 30%;
+    }
+    .stats-item h3 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .stats-item p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    .main-title {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/"><img src="../static/images/logo.png" alt="home" style="width: 150px; height: auto;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/about">소개 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/projects">프로젝트</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+
+  <div class="main-title">About</div>
+  <img src ="../static/images/logo.png" alt="Write-Up 로고" style="width: 100%; height: auto;">
+  <div class="subtitle">
+    <p>Write-Up은 수원대학교 정보보호학과 동아리로, [사이버 보안 공부, CTF대회 출전, 프로젝트 진행 등]의 활동을 하고자 하는 수원대 학생들이 모여 해킹 동아리가 만들어졌습니다.</p>
+  </div>
+  
+  <div class="activity-title">주요 활동</div>
+  <div class="activity-list">
+    <div class="activity-item">
+      <div class="activity-date">2023.03</div>
+      <div>Write-Up 설립</div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-date">2023.05</div>
+      <div>세미나 개최</div>
+      <div>주제: root 권한 탈취한 시스템 해킹, Process Injection 기법 분석과 사례, ejs 1-day 분석</div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-date">2023.06</div>
+      <div>차세대보안리더양성프로그램(BoB12기) 합격</div>
+      <div>- 용*우, 박*현</div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-date">2023.09</div>
+      <div>동아리 내부 프로젝트</div>
+      <ul>
+        <li>공공기관 모바일 앱 취약점 분석</li>
+        <li>real-world 웹 사이트 취약점 진단(공개 버그바운티 프로그램)</li>
+        <li>RSA 암호 해독 시뮬레이션 & MD5 충돌 시뮬레이션</li>
+        <li>CTF 대회 참여 및 우승</li>
+      </ul>
+    </div>
+    <div class="activity-item">
+      <div class="activity-date">2024</div>
+      <div>화이트햇스쿨 합격자 7명</div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
